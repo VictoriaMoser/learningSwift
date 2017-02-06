@@ -13,6 +13,8 @@
 		595B3E6E1E3FC3AD00DD3CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595B3E6D1E3FC3AD00DD3CBB /* Assets.xcassets */; };
 		595B3E711E3FC3AD00DD3CBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595B3E6F1E3FC3AD00DD3CBB /* LaunchScreen.storyboard */; };
 		595B3E791E3FC76900DD3CBB /* gator.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 595B3E781E3FC76900DD3CBB /* gator.jpeg */; };
+		59951C401E428E6800DDDDF8 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59951C3F1E428E6800DDDDF8 /* PersonTableViewCell.swift */; };
+		59951C441E42940000DDDDF8 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59951C431E42940000DDDDF8 /* PersonTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		595B3E701E3FC3AD00DD3CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		595B3E721E3FC3AD00DD3CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		595B3E781E3FC76900DD3CBB /* gator.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gator.jpeg; path = ../../gator.jpeg; sourceTree = "<group>"; };
+		59951C3F1E428E6800DDDDF8 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		59951C431E42940000DDDDF8 /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				595B3E6D1E3FC3AD00DD3CBB /* Assets.xcassets */,
 				595B3E6F1E3FC3AD00DD3CBB /* LaunchScreen.storyboard */,
 				595B3E721E3FC3AD00DD3CBB /* Info.plist */,
+				59951C3F1E428E6800DDDDF8 /* PersonTableViewCell.swift */,
+				59951C431E42940000DDDDF8 /* PersonTableViewController.swift */,
 			);
 			path = UdemySwiftCourse;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59951C441E42940000DDDDF8 /* PersonTableViewController.swift in Sources */,
+				59951C401E428E6800DDDDF8 /* PersonTableViewCell.swift in Sources */,
 				595B3E691E3FC3AD00DD3CBB /* ViewController.swift in Sources */,
 				595B3E671E3FC3AD00DD3CBB /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +311,7 @@
 				595B3E771E3FC3AD00DD3CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
