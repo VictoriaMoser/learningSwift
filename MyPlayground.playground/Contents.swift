@@ -200,6 +200,11 @@ if username == "victoriamoser" && password == "myPass" {
     
 }
 
+// generating a random number 
+
+let diceRoll = arc4random_uniform(6) // this code will generate a random number between 0-5 it is alwats 1 less than the number inside 
+
+
 
 
 
